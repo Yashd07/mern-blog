@@ -9,6 +9,7 @@ import SignUp from './pages/SignUp';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Search from './pages/Search';
+import PrivateRoute from './components/PrivateRoute.jsx'
 
 const App = () => {
   return (
@@ -21,7 +22,9 @@ const App = () => {
       <Route path='/sign-in' element={<SignIn />} />
       <Route path='/sign-up' element={<SignUp />} />
       <Route path='/search' element={<Search />} />
-      <Route path='/dashboard' element={<Dashboard />} />
+      <Route element={<PrivateRoute />}>
+          <Route path='/dashboard' element={<Dashboard />} />
+        </Route>
       <Route path='/projects' element={<Projects />} />
       
     </Routes>
