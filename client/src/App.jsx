@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Search from './pages/Search';
 import PrivateRoute from './components/PrivateRoute.jsx'
 import CreatePost from './pages/CreatePost.jsx';
+import OnlyAdminPrivateRoute from './components/OnlyAdminPrivateRoute.jsx';
 
 const App = () => {
   return (
@@ -28,8 +29,10 @@ const App = () => {
         </Route>
       <Route path='/projects' element={<Projects />} />
 
+      <Route element={<OnlyAdminPrivateRoute />}>
       <Route path='/create-post' element={<CreatePost />} />
-      
+      </Route>
+
     </Routes>
     <Footer />
   </BrowserRouter>
