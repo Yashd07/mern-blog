@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Search from './pages/Search';
 import PrivateRoute from './components/PrivateRoute.jsx'
+import CreatePost from './pages/CreatePost.jsx';
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
           <Route path='/dashboard' element={<Dashboard />} />
         </Route>
       <Route path='/projects' element={<Projects />} />
+
+      <Route path='/create-post' element={<CreatePost />} />
       
     </Routes>
     <Footer />
