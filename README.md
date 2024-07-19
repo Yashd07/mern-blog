@@ -41,19 +41,29 @@ Implemented a robust authentication system using JSON Web Tokens (JWT) and Googl
 These features combine to create a secure, efficient, and user-friendly web application that offers a seamless experience for both administrators and end-users.
 
 
-## Demo
+# Demo
 
-
+### Home Page
 ![Home Page](https://github.com/user-attachments/assets/c977f1a3-f5e6-41d1-a041-885e39e4e8b5)
+### About Page
 ![About Page](https://github.com/user-attachments/assets/d36f8902-f379-44d1-bb6b-5c4f909c5ea1)
+### Project Page
 ![Project Page](https://github.com/user-attachments/assets/fb6dd022-bf99-47e6-85b0-7be4b5958f35)
+### Signin page
 ![Signin page](https://github.com/user-attachments/assets/6258fa1d-e467-4c5f-bbfa-e4b925275297)
+### Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/3cbe17b8-3473-42ea-ab07-da226dab43c9)
+### Profile
 ![Profile](https://github.com/user-attachments/assets/885afe1e-5fac-4181-ac4a-0c9fd53a5aad)
+### Posts
 ![Posts](https://github.com/user-attachments/assets/e1aaec2e-8205-4aa2-8cc2-c1ae19d1a252)
+### Comments
 ![Comments](https://github.com/user-attachments/assets/f4ab68ff-4957-4982-8f51-f9db9d48c00d)
+### Post results
 ![Post results](https://github.com/user-attachments/assets/d24d73e5-98bc-486d-b96a-5ef5470c8c45)
+### Search Functionality
 ![Search Functionality](https://github.com/user-attachments/assets/5d1fbc8d-bcd8-48d0-a7d0-536eea42c503)
+### Light mode screen
 ![Light mode screen](https://github.com/user-attachments/assets/9b77d168-2a86-4df3-bec4-b5abe0a9019f)
 
 
